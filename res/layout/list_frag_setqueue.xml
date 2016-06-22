@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_setqueue_lin"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:id="@+id/setqueue_image"
+        android:layout_height="fill_parent"
+        android:layout_width="40dp"
+        />
+    <TextView 
+        android:id="@+id/setqueue_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="扫描"
+        android:paddingTop="15dp"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/grey_white"/>
+</LinearLayout>
